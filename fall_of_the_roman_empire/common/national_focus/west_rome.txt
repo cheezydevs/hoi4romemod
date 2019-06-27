@@ -1,12 +1,12 @@
 focus_tree = {
-	id = german_focus
+	id = westrome_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = GER
+			tag = SPQ
 		}
 	}
 	
