@@ -488,19 +488,19 @@ NMilitary = {
 	WAR_SCORE_AIR_WORTH_CAP = 1000,				-- the warscore limit we get from strategic bombing
 	WAR_SCORE_AIR_MONTHLY_FALLOFF = 10,			-- how much the warscore we got from the strategic bombing falls off every month.
 	
-	CORPS_COMMANDER_DIVISIONS_CAP = 24,			-- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
+	CORPS_COMMANDER_DIVISIONS_CAP = 8,			-- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
 	CORPS_COMMANDER_ARMIES_CAP = -1,			-- how many armies a corps commander is limited to. 0 = inf, < 0 = blocked
-	FIELD_MARSHAL_DIVISIONS_CAP = 24,			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
-	FIELD_MARSHAL_ARMIES_CAP = 5,				-- how many armies a field marshall is limited to. 0 = inf, < 0 = blocked
+	FIELD_MARSHAL_DIVISIONS_CAP = < 0,			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
+	FIELD_MARSHAL_ARMIES_CAP = 8,				-- how many armies a field marshall is limited to. 0 = inf, < 0 = blocked
 
 	UNIT_LEADER_GENERATION_CAPITAL_CONTINENT_FACTOR = 100, --Integer factor to multiply manpower.
 
-	RECON_SKILL_IMPACT = 5, -- how many skillpoints is a recon advantage worth when picking a tactic.
+	RECON_SKILL_IMPACT = 10, -- how many skillpoints is a recon advantage worth when picking a tactic.
 
-	MAX_DIVISION_BRIGADE_WIDTH = 5,			-- Max width of regiments in division designer.
+	MAX_DIVISION_BRIGADE_WIDTH = 2,			-- Max width of regiments in division designer.
 	MAX_DIVISION_BRIGADE_HEIGHT = 5,		-- Max height of regiments in division designer.
 	MAX_DIVISION_SUPPORT_WIDTH = 1,			-- Max width of support in division designer.
-	MAX_DIVISION_SUPPORT_HEIGHT = 5,		-- Max height of support in division designer.
+	MAX_DIVISION_SUPPORT_HEIGHT = 1,		-- Max height of support in division designer.
 	
 	BASE_DIVISION_BRIGADE_GROUP_COST = 20, 	--Base cost to unlock a regiment slot,
 	BASE_DIVISION_BRIGADE_CHANGE_COST = 5,	--Base cost to change a regiment column.
@@ -529,9 +529,9 @@ NMilitary = {
 	LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.5, -- damage reduction if armor outclassing enemy
 	LAND_COMBAT_COLLATERAL_FACTOR = 0.005,		   -- Factor to scale collateral damage to infra and forts with.
 	LAND_COMBAT_FORT_DAMAGE_CHANCE = 5,		-- chance to get a hit to damage on forts. (out of 100)
-	ATTRITION_DAMAGE_ORG = 0.1,					   -- damage from attrition to Organisation
-	ATTRITION_EQUIPMENT_LOSS_CHANCE = 0.1,		   -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
-	ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE = 0.1, -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
+	ATTRITION_DAMAGE_ORG = 0.3,					   -- damage from attrition to Organisation
+	ATTRITION_EQUIPMENT_LOSS_CHANCE = 0.2,		   -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
+	ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE = 0.2, -- Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
 	ATTRITION_WHILE_MOVING_FACTOR = 1,
 	BASE_CHANCE_TO_AVOID_HIT = 90,                 -- Base chance to avoid hit if defences left.
 	CHANCE_TO_AVOID_HIT_AT_NO_DEF = 60,	           -- chance to avoid hit if no defences left.
@@ -542,14 +542,14 @@ NMilitary = {
 	ADDITIONAL_COMBAT_WIDTH = 40,                  -- more opened up by support attack
 	AMPHIBIOUS_INVADE_MOVEMENT_COST = 24.0,        -- total progress cost of movement while amphibious invading
 	LAND_SPEED_MODIFIER = 0.05,                    -- basic speed control
-	RIVER_CROSSING_PENALTY = -0.3,                 -- small river crossing
-	RIVER_CROSSING_PENALTY_LARGE = -0.6,           -- large river crossing
+	RIVER_CROSSING_PENALTY = -0.6,                 -- small river crossing
+	RIVER_CROSSING_PENALTY_LARGE = -0.9,           -- large river crossing
 	RIVER_CROSSING_SPEED_PENALTY = -0.25,           -- small river crossing
 	RIVER_CROSSING_SPEED_PENALTY_LARGE = -0.5,     -- large river crossing
 	RIVER_SMALL_START_INDEX = 0,                   -- color indices for rivers
 	RIVER_SMALL_STOP_INDEX = 6,
 	RIVER_LARGE_STOP_INDEX = 11,
-	BASE_FORT_PENALTY = -0.15, 					   -- fort penalty
+	BASE_FORT_PENALTY = -0.50, 					   -- fort penalty
 	BASE_STACKING_PENALTY = -0.1,                  -- multiple direction attack penalty
 	MULTIPLE_COMBATS_PENALTY = -0.5,               -- defender penalty if attacked from multiple directions
 	DIG_IN_FACTOR = 0.02,						   -- bonus factor for each dug-in level
@@ -776,7 +776,7 @@ NMilitary = {
 		0.0  -- navy general
 	}, 
 	
-	HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS = 336, -- minimum hours required for units to rejoin border wars
+	HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS = 24, -- minimum hours required for units to rejoin border wars
 	
 	NEW_COMMANDER_RANDOM_PERSONALITY_TRAIT_CHANCES = {  -- chances to gain a personality trait for new generals
 		0.5, -- 50% for first trait
