@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = SPQ
+		owner = BUR
 		buildings = {
 			infrastructure = 4
 		}
@@ -21,6 +21,7 @@ state={
 		}
 		add_core_of = SPQ
 		add_core_of = FRA
+		add_core_of = BUR
 	}
 
 	provinces={

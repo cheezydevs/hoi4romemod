@@ -11,7 +11,7 @@ state={
 	state_category = city
 
 	history={
-		owner = FRA
+		owner = BUR
 		victory_points = {
 			6613 10
 		}
@@ -22,6 +22,7 @@ state={
 		}
 		add_core_of = SPQ
 		add_core_of = FRA
+		add_core_of = BUR
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
