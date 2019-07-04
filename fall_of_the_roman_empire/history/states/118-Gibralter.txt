@@ -10,13 +10,13 @@ state=
 		victory_points = { 4135 10 }
 		buildings = {
 			infrastructure = 6
-			air_base = 2
 			4135 = {
 				naval_base = 5
 				coastal_bunker = 2
 			}
 		}
 		add_claim_by = SPR
+		add_core_of = SPQ
 	}
 	provinces={
 		4135

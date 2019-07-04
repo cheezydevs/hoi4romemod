@@ -12,6 +12,7 @@ state={
 	history={
 		owner = FRA
 		add_core_of = ALG
+		add_core_of = SPQ
 
 		victory_points = {
 			1145 5 
@@ -21,7 +22,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			air_base = 5
 			1145 = {
 				naval_base = 2
 			}
