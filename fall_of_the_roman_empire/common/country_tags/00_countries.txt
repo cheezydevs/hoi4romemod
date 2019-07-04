@@ -185,4 +185,6 @@ NIR = "countries/Northern Ireland.txt"
 #######################################
 SPQ = "countries/Rome.txt"
 BYZ = "countries/Byzantium.txt"
-BUR = "countries/Burgundy.txt
+BUR = "countries/Burgundy.txt"
+GEP = "countries/Germanic Peoples.txt"
+VIS = "countries/Visigoths.txt"

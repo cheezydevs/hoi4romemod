@@ -3,4 +3,4 @@ graphical_culture_2d = western_european_2d
 
 color = 50 7 74
 
-set_major = yes
+set_major = no
