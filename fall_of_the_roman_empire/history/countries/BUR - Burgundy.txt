@@ -202,15 +202,16 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.5.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 69
-	fascism = 1
-	communism = 30
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
 }
 
 #give_guarantee = CZE
