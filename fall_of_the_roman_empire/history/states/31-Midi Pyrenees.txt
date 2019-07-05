@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = FRA
+		owner = VIS
 		victory_points = {
 			6766 5 
 		}
@@ -19,6 +19,7 @@ state={
 		}
 		add_core_of = SPQ
 		add_core_of = FRA
+		add_core_of = VIS
 	}
 
 	provinces={

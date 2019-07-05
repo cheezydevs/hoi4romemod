@@ -7,7 +7,7 @@ state={
 
 	state_category = large_town
 	history={
-		owner = FRA
+		owner = VIS
 		buildings = {
 			infrastructure = 5
 		}
@@ -16,6 +16,7 @@ state={
 		}
 		add_core_of = SPQ
 		add_core_of = FRA
+		add_core_of = VIS
 	}
 
 	provinces={

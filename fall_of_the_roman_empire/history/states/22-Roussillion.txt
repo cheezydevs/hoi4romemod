@@ -13,7 +13,7 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = VIS
 		victory_points = {
 			9898 1 
 		}
@@ -23,6 +23,7 @@ state={
 		}
 		add_core_of = SPQ
 		add_core_of = FRA
+		add_core_of = VIS
 	}
 
 	provinces={

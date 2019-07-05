@@ -10,13 +10,14 @@ state={
 		victory_points = {
 			651 1
 		}
-		owner = FRA
+		owner = VIS
 		
 		buildings = {
 			infrastructure = 6
 		}
 		add_core_of = SPQ
 		add_core_of = FRA
+		add_core_of = VIS
 	}
 
 	provinces={

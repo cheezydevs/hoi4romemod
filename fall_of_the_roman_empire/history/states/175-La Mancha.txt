@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = SPR
+		owner = VIS
 		victory_points = {
 			6832 1
 		}
@@ -20,6 +20,7 @@ state={
 		}
 		add_core_of = SPR
 		add_core_of = SPQ
+		add_core_of = VIS
 	}
 
 	provinces={

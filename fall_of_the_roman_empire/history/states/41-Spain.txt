@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = SPR
+		owner = VIS
 		victory_points = {
 			3938 30
 		}
@@ -25,6 +25,7 @@ state={
 		}
 		add_core_of = SPR
 		add_core_of = SPQ
+		add_core_of = VIS
 	}
 
 	provinces={
