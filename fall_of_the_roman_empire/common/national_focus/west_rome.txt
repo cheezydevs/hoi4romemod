@@ -1,0 +1,33 @@
+focus_tree = {
+	id = west_rome_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SPQ
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = SPQ_test
+		icon = GFX_focus_research
+		x = 0
+		y = 0
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			SPQ = {
+				transfer_state = 122
+			}
+		}
+	}
+}
+
+#
+
