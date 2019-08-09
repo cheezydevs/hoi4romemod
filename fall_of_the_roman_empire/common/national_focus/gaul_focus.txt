@@ -1,0 +1,30 @@
+focus_tree = {
+	id = gaul_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GAU
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = GAU_send_asterix_and_obelix
+		icon = GFX_focus_research
+		x = 0
+		y = 10
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			GAU = {
+			
+			}
+		}
+	}
+}

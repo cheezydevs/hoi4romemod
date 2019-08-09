@@ -39,7 +39,7 @@ state={
 			}
 		}
 		add_core_of = SPQ
-		add_core_of = FRA
+		add_core_of = GAU
 	}
 
 	provinces={
