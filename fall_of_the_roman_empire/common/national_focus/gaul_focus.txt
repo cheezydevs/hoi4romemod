@@ -13,7 +13,7 @@ focus_tree = {
 	default = no
 
 	focus = {
-		id = GAU_send_asterix_and_obelix
+		id = GAU_crown_asterix_king
 		icon = GFX_focus_research
 		x = 0
 		y = 10
@@ -23,6 +23,9 @@ focus_tree = {
 
 		completion_reward = {
 			GAU = {
+			retire_country_leader = yes
+			set_autonomy_level = free
+			set_ruling_party = neutrality
 			
 			}
 		}
