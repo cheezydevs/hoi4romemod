@@ -16,7 +16,7 @@ focus_tree = {
 		id = GAU_crown_asterix_king
 		icon = GFX_focus_research
 		x = 0
-		y = 10
+		y = 0
 		cost = 1
 
 		available_if_capitulated = no
