@@ -16,15 +16,11 @@ focus_tree = {
 		id = GAU_send_asterix_and_obelix
 		icon = GFX_focus_research
 		x = 0
-		y = 10
+		y = 0
 		cost = 1
 
 		available_if_capitulated = no
 
-		completion_reward = {
-			GAU = {
-			
-			}
-		}
+		completion_reward = {}
 	}
 }
