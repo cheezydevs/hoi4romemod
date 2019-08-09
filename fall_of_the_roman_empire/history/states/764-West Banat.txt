@@ -6,14 +6,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = YUG
-		controller = YUG
+		owner = OST
+		controller = OST
 
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = YUG
-		add_core_of = SER
+		add_core_of = OST
 	}
 
 	provinces={
