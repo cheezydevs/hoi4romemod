@@ -14,7 +14,7 @@ focus_tree = {
 
 	focus = {
 		id = GAU_crown_asterix_king
-		icon = GFX_focus_research
+		icon = GFX_anschluss
 		x = 0
 		y = 0
 		cost = 1
@@ -31,3 +31,8 @@ focus_tree = {
 		}
 	}
 }
+
+    focus = {
+		id = his_majestys_potionmaker
+		icon = GFX_focus_research
+	}
